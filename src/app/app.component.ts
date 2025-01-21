@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { RouterLink, RouterOutlet } from '@angular/router';
 import { DataService } from './data.service';
 import { HttpClient } from '@angular/common/http';
 import { NgFor } from '@angular/common';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, NgFor],
+  imports: [RouterOutlet, NgFor, RouterLink],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

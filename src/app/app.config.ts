@@ -9,5 +9,6 @@ export const appConfig: ApplicationConfig = {
     provideZoneChangeDetection({ eventCoalescing: true }), 
     provideRouter(routes),
     provideHttpClient() //importa HttpClient para usar API Rest en Angular
+    
   ]
 };

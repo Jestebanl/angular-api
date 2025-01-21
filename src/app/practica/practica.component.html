@@ -1,0 +1,9 @@
+<h2>Componente de práctica</h2>
+<p>Conectar a un endpoint - JSON y consumir datos</p>
+<ul>
+  <li *ngFor="let dato of datos">
+    <img src="{{ dato.thumbnailUrl }}" alt="{{ dato.title }}" width="100" height="100"/>
+    {{dato._id}} - {{dato.title}}
+
+  </li>
+</ul>
